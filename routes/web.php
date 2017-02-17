@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/hello/{name}/{name2}','helocontroller@index');
+Route::get('/calc','helocontroller@index'); 
+Route::post('/calc','helocontroller@add'); 
+
+
